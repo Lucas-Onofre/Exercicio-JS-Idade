@@ -18,7 +18,7 @@ function verificar(){
             genero = 'homem';
 
             //verificação idade homem
-            if(idade >= 0 && idade < 10){
+            if(idade >= 0 && idade < 14){
                 //criança
                 img.setAttribute('src', 'img/crianca-m.png');
             }
@@ -39,7 +39,7 @@ function verificar(){
             genero = 'mulher';
 
             //verificação idade mulher
-            if(idade >= 0 && idade < 10){
+            if(idade >= 0 && idade < 14){
                 //criança
                 img.setAttribute('src', 'img/crianca-f.png');
             }
